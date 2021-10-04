@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -13,7 +14,7 @@ header {
     height: 100px;
     background-image: url("..//img/pattern.png");
     background-size: contain;
-    background-color: blue;
+    background-color: #00aaff;
 }
 
 header img {
@@ -50,6 +51,7 @@ main h1 {
 
 .unordered-list {
     margin-bottom: 20px;
+    margin-left: 20px;
 }
 
 thead {
@@ -63,4 +65,51 @@ thead {
 main p {
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.larger {
+    width: 50%;
+}
+
+.smaller {
+    width: 25%;
+}
+
+table {
+    text-align: left;
+}
+
+#may-be-interesting {
+    color: grey;
+    font-weight: bold;
+}
+
+.first-image {
+    background-image: url("..//img/monitor.jpg");
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.first-image-text {
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.second-image {
+    background-image: url("..//img/graph.jpg");
+    width: 200px;
+    height: 200px;
+    background-position: center;
+    margin-top: 10px;
+}
+
+.second-image-text {
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 10px;
 }
