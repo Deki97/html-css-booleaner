@@ -1,3 +1,4 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* COMMON */
 .container {
     width: 98%;
     margin: auto;
@@ -17,11 +19,14 @@ header {
     background-color: #1aa3ff;
 }
 
+/* LOGO THE BOOLEANERS */
 header img {
     width: 15%;
     margin-top: 40px;
 }
 
+
+/* INIZIO MAIN */
 .main-title h1 {
     margin-top: 20px;
     font-size: 45px;
@@ -56,6 +61,7 @@ header img {
     margin-left: 20px;
 }
 
+/* INTESTAZIONE DELLA TABELLA */
 thead {
     background-color: #1aa3ff;
     color: white;
@@ -70,18 +76,23 @@ main p {
     margin-bottom: 20px;
 }
 
-.larger {
-    width: 50%;
-}
-
-.smaller {
-    width: 25%;
-}
-
 table {
     text-align: left;
     border-collapse: collapse;
 }
+
+/* PRIME DUE COLONNE TABELLA (PIU' STRETTE) */
+.smaller {
+    width: 25%;
+}
+
+/* TERZA COLONNA TABELLA (PIU' LARGA) */
+.larger {
+    width: 50%;
+}
+
+/* FINE MAIN */
+
 
 #may-be-interesting {
     color: grey;
@@ -104,6 +115,7 @@ table {
     margin-top: 10px;
 }
 
+/* PROPRIETA' DEL TESTO NELLE IMMAGINI */
 .first-image-text, .second-image-text {
     color: white;
     font-weight: bold;
@@ -111,6 +123,7 @@ table {
     padding-left: 10px;
 }
 
+/* FINE  */
 
 
 
