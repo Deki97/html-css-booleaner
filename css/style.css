@@ -6,7 +6,7 @@
 }
 
 .container {
-    width: 95%;
+    width: 98%;
     margin: auto;
 }
 
@@ -14,15 +14,15 @@ header {
     height: 100px;
     background-image: url("..//img/pattern.png");
     background-size: contain;
-    background-color: #00aaff;
+    background-color: #1aa3ff;
 }
 
 header img {
     width: 15%;
-    margin-top: 30px;
+    margin-top: 40px;
 }
 
-main h1 {
+.main-title h1 {
     margin-top: 20px;
     font-size: 45px;
 }
@@ -33,16 +33,18 @@ main h1 {
 }
 
 #the-booleaner {
-    color: blue;
+    color: #1aa3ff;
 }
 
 #publication-date {
     color: grey;
     margin-bottom: 20px;
+    font-size: 14px;
 }
 
 .source-photo {
     font-size: 12px;
+    font-weight: bold;
 }
 
 .background-yellow {
@@ -55,7 +57,8 @@ main h1 {
 }
 
 thead {
-    background-color: blue;
+    background-color: #1aa3ff;
+    color: white;
 }
 
 .background-lightblue {
@@ -77,39 +80,37 @@ main p {
 
 table {
     text-align: left;
+    border-collapse: collapse;
 }
 
 #may-be-interesting {
     color: grey;
     font-weight: bold;
+    margin-top: 30px;
 }
 
 .first-image {
     background-image: url("..//img/monitor.jpg");
-    width: 200px;
-    height: 200px;
-    background-position: center;
-    margin-top: 10px;
-}
-
-.first-image-text {
-    color: white;
-    font-weight: bold;
-    padding-top: 10px;
-    padding-left: 10px;
 }
 
 .second-image {
     background-image: url("..//img/graph.jpg");
-    width: 200px;
-    height: 200px;
+}
+
+.first-image, .second-image {
+    width: 240px;
+    height: 180px;
     background-position: center;
     margin-top: 10px;
 }
 
-.second-image-text {
+.first-image-text, .second-image-text {
     color: white;
     font-weight: bold;
     padding-top: 10px;
     padding-left: 10px;
 }
+
+
+
+
